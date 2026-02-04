@@ -1,0 +1,38 @@
+h1 {
+  padding: 0.77rem 0;
+  background-color: rgba(1, 12, 63, 0.7);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
+
+h1 .highlight {
+  color: #6c41ec;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url("./Screenshot\ 2026-01-23\ 193745.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App {
+    padding: 0 5% 10% 5%;
+  }
+
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}

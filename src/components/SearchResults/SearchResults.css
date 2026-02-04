@@ -1,0 +1,20 @@
+.SearchResults {
+  width: 50%;
+  height: 950px;
+  overflow-y: scroll;
+  padding: 0.88rem 1.16rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.SearchResults h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.55rem;
+}
+
+@media only screen and (max-width: 1020px) {
+  .SearchResults {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+}
